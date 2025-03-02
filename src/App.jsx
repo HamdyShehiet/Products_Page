@@ -1,6 +1,6 @@
 import Header from "./components/layouts/Header"
-import Product from "./components/Product"
-import Products from "./components/Products"
+import Product from "./components/pages/Product"
+import Products from "./components/pages/Products"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 

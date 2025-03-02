@@ -24,7 +24,7 @@ function Products() {
                         return (
                             <div key={product.id} className="product flex flex-col items-center gap-[15px] p-[20px] bg-white rounded-[6px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
                                 <img loading="lazy" src={product.image} className="max-w-full h-[200px]" alt="Product Image" />
-                                <h3 className="title min-h-[80px] text-center text-[18px] font-bold text-green-900">{product.title}</h3>
+                                <h3 className="title min-h-[85px] text-center text-[16px] font-bold text-green-900">{product.title}</h3>
                                 <Link to={`/product/${product.id}`} className="p-[10px_20px] rounded-[6px] text-[16px] text-white font-semibold bg-green-700 shadow-[0_4px_4px_0px_rgba(0,0,0,0.3)] hover:bg-green-800">More Details</Link>  
                             </div>
                         )
